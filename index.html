@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Simple Calculator Harsh Trivedi</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70447982-5"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-70447982-5');
+	</script>
+
+	<!-- Common Tags -->
+    <meta content='#171825' name='theme-color' />
+    <meta name="keywords" content="Simple JavaScript Calculator, Harsh, JavaScript, Calculator, JavaScript Calculator, JSCalci, JavaScriptCalci, Harsh Trivedi">
+	<link rel='icon' type='image/x-icon' href='favicon.png' />
+</head>
+
+<body>
+	<div class="container">
+		<h1><a style="text-decoration: none; color: #51d9f1; margin-left: 0.25rem;" href="" onclick="location.reload();">CALCULATOR</a><img id="historybutton" src="history.png"></h1 >
+		<div class="calculator">
+			<input type="text" name="screen" id="answer" readonly>
+			<table>
+				<tr>
+					<td><button class="com">AC</button></td>
+					<td><button class="com">C</button></td>
+					<td><button onclick="back()" class="com">⌫</button></td>
+					<td><button class="ops">/</button></td>
+				</tr>
+				<tr>
+					<td><button class="norm">7</button></td>
+					<td><button class="norm">8</button></td>
+					<td><button class="norm">9</button></td>
+					<td><button class="ops">X</button></td>
+				</tr>
+				<tr>
+					<td><button class="norm">4</button></td>
+					<td><button class="norm">5</button></td>
+					<td><button class="norm">6</button></td>
+					<td><button class="ops">-</button></td>
+				</tr>
+				<tr>
+					<td><button class="norm">1</button></td>
+					<td><button class="norm">2</button></td>
+					<td><button class="norm">3</button></td>
+					<td><button class="ops">+</button></td>
+				</tr>
+				<tr>
+					<td><button class="ops">%</button></td>
+					<td><button class="norm">0</button></td>
+					<td><button style="font-weight: bold;" class="norm">.</button></td>
+					<td><button class="ops">=</button></td>
+				</tr>
+			</table>
+			<hr style="max-width: 70%;">
+			<div style="font-size:1rem; display: flex; align-items: center; justify-content: center;">
+				<a href="https://github.com/giewendi"style="text-decoration: none; color: #51d9f1; margin-right: 0.25rem;"> Giewen D. Pinlac</a> | <a style="text-decoration: none; color: #f1c40f; margin-left: 0.25rem;"
+                target="_blank" href="https://harsh98trivedi.github.io">© Harsh Trivedi</a></div>
+		</div>
+	</div>
+	<div id="bar1" class = "bars"></div>
+	<div id="bar2" class = "bars"></div>
+	<div id="history">
+	</div>
+    <div id="turn">
+    PLEASE TURN YOUR DEVICE
+	</div>
+</body>
+<script src="hist.js"></script>
+<script src="calc.js"></script>
+</html>
