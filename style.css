@@ -67,7 +67,7 @@ button {
     padding: 0.5rem 0;
     margin: 0.50vmax;
     font-size: 2rem;
-    border-radius: 1em;
+    border-radius: .8em;
     -moz-transition: all ease 0.5s;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
